@@ -6,6 +6,7 @@
 #include "carControl/GetControlConfig.h"
 #include "carControl/CarControl.h"
 #include <iostream>
+#include <cmath>
 
 int main() {
     /*
@@ -14,16 +15,10 @@ int main() {
     //控制部分初始化
     ControlConfigs controlConfigs;
     getControlConfig(controlConfigs);
-//
-//    std::cout << controlConfigs.controlMethod << std::endl;
-//    std::cout << controlConfigs.kp << std::endl;
-//    std::cout << controlConfigs.ki << std::endl;
-//    std::cout << controlConfigs.kd << std::endl;
-//    std::cout << controlConfigs.leftStdSpeed << std::endl;
-//    std::cout << controlConfigs.rightStdSpeed << std::endl;
 
     PID *leftPid = new PID(controlConfigs.kp, controlConfigs.ki, controlConfigs.kd);
     PID *rightPid = new PID(controlConfigs.kp, controlConfigs.ki, controlConfigs.kd);
+    std::cout << *rightPid << std::endl;
 
     const int CONTROL_PARAMETER_NUMBER = 3;
     const double PI = 3.14;
@@ -64,13 +59,25 @@ int main() {
         preSpeeds = currSpeeds;
         preDir = currDir;
 
-        //测试
+        /*
+         * 测试
+         */
+        //只控制右边线
+//        double deltaDis = (currSpeeds.right - currSpeeds.left) * 1.0;
+//        currDists = Distances(
+//			preDists.left - deltaDis,
+//			preDists.right + deltaDis
+//		);
+        //控制两边线
         double deltaDis = (currSpeeds.right - currSpeeds.left) * 1.0;
         currDists = Distances(
-			preDists.left - deltaDis,
-			preDists.right + deltaDis
-		);
+                preDists.left - deltaDis,
+                preDists.right + deltaDis
+        );
+        currDir = rand() / double(RAND_MAX) * (3.14);
+
         std::cout << currDists << std::endl;
+        if(std::abs(currSpeeds.left - currSpeeds.right) < 0.001) break;
     }
 
 }
