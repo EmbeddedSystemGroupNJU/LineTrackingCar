@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/carControl/CarControl.cpp" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/carControl/PID.cpp" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/carControl/PID.h" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/carControl/PidControl.h" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/carControl/PidControlBothDistance.cpp" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/carControl/PidControlClasses.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/carControl/class/PID.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/carControl/class/PID.h" charset="UTF-8" />
   </component>
 </project>
