@@ -11,8 +11,8 @@ double getDeltaSpeed(double newDis, double mid, double oldSpeed)
 }
 
 Speeds rightDistancePidControl(
-        const Distances& preDistances,
-        const Speeds &stdSpeeds,
+        Distances& preDistances,
+        Speeds &stdSpeeds,
         PID &pid)
 {
     double mid = (preDistances.left + preDistances.right) / (double)2.0;

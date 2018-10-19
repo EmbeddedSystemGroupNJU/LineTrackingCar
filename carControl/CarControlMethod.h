@@ -2,16 +2,16 @@
 // Created by leich on 2018/10/19.
 //
 
-#ifndef LINETRACKINGCAR_CARCONTROL_H
-#define LINETRACKINGCAR_CARCONTROL_H
+#ifndef LINETRACKINGCAR_CARCONTROLMETHOD_H
+#define LINETRACKINGCAR_CARCONTROLMETHOD_H
 
 #include "class/PID.h"
 #include "class/Distances.h"
 #include "class/Speeds.h"
 
 Speeds rightDistancePidControl(
-        const Distances &oldDis,
-        const Speeds &oldSpeeds,
+        Distances &oldDis,
+        Speeds &stdSpeeds,
         PID &pid
         );
 
@@ -26,4 +26,4 @@ Speeds bothDistancePidControl(
         );
 
 
-#endif //LINETRACKINGCAR_CARCONTROL_H
+#endif //LINETRACKINGCAR_CARCONTROLMETHOD_H

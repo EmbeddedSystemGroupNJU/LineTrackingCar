@@ -26,8 +26,6 @@ std::vector<std::string> spilt(const std::string &str, const std::string &delim)
 }
 
 void getConfigMap(std::unordered_map<std::string, std::string> &configMap, std::string filePath) {
-    std::ifstream ifs(filePath, std::ios::in);
-
     std::string content;
     std::vector<std::string> stringPair;
     const int KEY_INDEX = 0;
@@ -35,9 +33,11 @@ void getConfigMap(std::unordered_map<std::string, std::string> &configMap, std::
     const int FIRST_CHAR_INDEX = 0;
     const char COMMENT_LINE = '*';
     const std::string SEPARATOR = "=";
-    std::cout << ifs.is_open();
+
+    //配置文件要和exe文件在一起
+    std::ifstream ifs(filePath);
     if(ifs.is_open()) {
-        while (!ifs.eof()) {
+        while (getline(ifs, content)) {
             ifs >> content;
 
             if (content[FIRST_CHAR_INDEX] == COMMENT_LINE) {
@@ -63,7 +63,7 @@ void getControlConfig(ControlConfigs& controlConfigs) {
     std::unordered_map<std::string, std::string> *configMap = new std::unordered_map<std::string, std::string>();
 	getConfigMap(*configMap, "ControlConfiguration.txt");
 
-	std::string controlMethod = configMap->at("CONTROL_METHOD");
+    controlConfigs.controlMethod = configMap->at("CONTROL_METHOD");
     controlConfigs.kp = parseDouble(configMap->at("KP"));
     controlConfigs.ki = parseDouble(configMap->at("KI"));
     controlConfigs.kd = parseDouble(configMap->at("KD"));

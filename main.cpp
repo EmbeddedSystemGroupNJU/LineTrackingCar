@@ -1,9 +1,9 @@
 //
 // Created by leich on 2018/10/19.
 //
-//
-// Created by leich on 2018/10/19.
-//
+
+#include "carControl/class/ControlConfigs.h"
+#include "carControl/GetControlConfig.h"
 #include "carControl/CarControl.h"
 #include <iostream>
 
@@ -14,13 +14,16 @@ int main() {
     //控制部分初始化
     ControlConfigs controlConfigs;
     getControlConfig(controlConfigs);
+//
+//    std::cout << controlConfigs.controlMethod << std::endl;
+//    std::cout << controlConfigs.kp << std::endl;
+//    std::cout << controlConfigs.ki << std::endl;
+//    std::cout << controlConfigs.kd << std::endl;
+//    std::cout << controlConfigs.leftStdSpeed << std::endl;
+//    std::cout << controlConfigs.rightStdSpeed << std::endl;
 
-    std::cout << controlConfigs.controlMethod << std::endl;
-    std::cout << controlConfigs.kp << std::endl;
-    std::cout << controlConfigs.ki << std::endl;
-    std::cout << controlConfigs.kd << std::endl;
-    std::cout << controlConfigs.leftStdSpeed << std::endl;
-    std::cout << controlConfigs.rightStdSpeed << std::endl;
+    PID *leftPid = new PID(controlConfigs.kp, controlConfigs.ki, controlConfigs.kd);
+    PID *rightPid = new PID(controlConfigs.kp, controlConfigs.ki, controlConfigs.kd);
 
     const int CONTROL_PARAMETER_NUMBER = 3;
     const double PI = 3.14;
@@ -28,7 +31,16 @@ int main() {
     //0：左边线距离
     //1：右边线距离
     //2：角度（从右往左）
-    double controlParameters[CONTROL_PARAMETER_NUMBER] = {0, 0, PI / 2.0};
+    double controlParams[CONTROL_PARAMETER_NUMBER] = {0, 0, PI / 2.0};
+    Speeds stdSpeeds = Speeds(controlConfigs.leftStdSpeed, controlConfigs.rightStdSpeed);
+
+    Distances preDists = Distances(300, 700);
+    Speeds preSpeeds = stdSpeeds;
+    double preDir = PI / 2;
+
+    Distances currDists = preDists;
+    Speeds currSpeeds = preSpeeds;
+    double currDir = preDir;
 
     while(true) {
         /*
@@ -38,6 +50,27 @@ int main() {
         /*
          * 小车控制
          */
+        currSpeeds.left = controlParams[0];
+        currSpeeds.right = controlParams[1];
+        currDir = controlParams[2];
+
+        controlCar(preDists, preSpeeds, preDir,
+                currDists, currSpeeds,
+                stdSpeeds,
+                controlConfigs.controlMethod,
+                *leftPid, *rightPid);
+
+        preDists = currDists;
+        preSpeeds = currSpeeds;
+        preDir = currDir;
+
+        //测试
+        double deltaDis = (currSpeeds.right - currSpeeds.left) * 1.0;
+        currDists = Distances(
+			preDists.left - deltaDis,
+			preDists.right + deltaDis
+		);
+        std::cout << currDists << std::endl;
     }
 
 }
