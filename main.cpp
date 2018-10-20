@@ -18,7 +18,7 @@ int main() {
 
     PID *leftPid = new PID(controlConfigs.kp, controlConfigs.ki, controlConfigs.kd);
     PID *rightPid = new PID(controlConfigs.kp, controlConfigs.ki, controlConfigs.kd);
-    std::cout << *rightPid << std::endl;
+    //std::cout << *rightPid << std::endl;
 
     const int CONTROL_PARAMETER_NUMBER = 3;
     const double PI = 3.14;
