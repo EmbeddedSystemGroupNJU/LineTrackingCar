@@ -3,7 +3,10 @@
 //
 #include "CarControl.h"
 #include "CarControlMethod.h"
+#include "GPIO/GPIOlib.h"
 #include <iostream>
+
+using namespace GPIO;
 
 void controlCar(
         Distances &preDists,
@@ -25,7 +28,9 @@ void controlCar(
     }
     currSpeeds.left = processSpeeds.left;
     currSpeeds.right = processSpeeds.right;
-//	controlLeft(FORWARD, speeds.left);
-//	controlRight(FORWARD, speeds.right);
+    init();
+    turnTo(0);
+	controlLeft(FORWARD, (int)processSpeeds.left);
+	controlRight(FORWARD, (int)processSpeeds.right);
     std::cout << currSpeeds << std::endl;
 }
