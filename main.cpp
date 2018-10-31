@@ -45,16 +45,16 @@ int main() {
         /*
          * 小车控制
          */
-        currSpeeds.left = controlParams[0];
-        currSpeeds.right = controlParams[1];
+        currDists.left = controlParams[0];
+        currDists.right = controlParams[1];
         currDir = controlParams[2];
 
         controlCar(preDists, preSpeeds, preDir,
-                currDists, currSpeeds,
-                stdSpeeds,
-                controlConfigs.controlMethod,
-                *leftPid, *rightPid);
-
+                   currDists, currSpeeds,
+                   stdSpeeds,
+                   controlConfigs.controlMethod,
+                   *leftPid, *rightPid);
+        
         preDists = currDists;
         preSpeeds = currSpeeds;
         preDir = currDir;
@@ -68,16 +68,16 @@ int main() {
 //			preDists.left - deltaDis,
 //			preDists.right + deltaDis
 //		);
-        //控制两边线
-        double deltaDis = (currSpeeds.right - currSpeeds.left) * 1.0;
-        currDists = Distances(
-                preDists.left - deltaDis,
-                preDists.right + deltaDis
-        );
-        currDir = rand() / double(RAND_MAX) * (3.14);
-
-        std::cout << currDists << std::endl;
-        if(std::abs(currSpeeds.left - currSpeeds.right) < 0.001) break;
+//        //控制两边线
+//        double deltaDis = (currSpeeds.right - currSpeeds.left) * 1.0;
+//        currDists = Distances(
+//                preDists.left - deltaDis,
+//                preDists.right + deltaDis
+//        );
+//        currDir = rand() / double(RAND_MAX) * (3.14);
+//
+//        std::cout << currDists << std::endl;
+//        if(std::abs(currSpeeds.left - currSpeeds.right) < 0.001) break;
     }
 
 }
