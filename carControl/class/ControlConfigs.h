@@ -15,6 +15,7 @@ public:
     double kd;
     double leftStdSpeed;
     double rightStdSpeed;
+    int maxSpeed;
 };
 
 #endif //LINETRACKINGCAR_CONTROLCONFIGS_H

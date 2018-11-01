@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/CarControl.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/carControl/CarControl.cpp.obj"
-  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/CarControlMethod.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/carControl/CarControlMethod.cpp.obj"
-  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/GetControlConfig.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/carControl/GetControlConfig.cpp.obj"
-  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/class/Distances.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/carControl/class/Distances.cpp.obj"
-  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/class/PID.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/carControl/class/PID.cpp.obj"
-  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/class/Speeds.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/carControl/class/Speeds.cpp.obj"
-  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/imageProcess/process.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/imageProcess/process.cpp.obj"
-  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/main.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/main.cpp.obj"
+  "/home/waxnkw/NjuProject/xx/Car/carControl/CarControl.cpp" "/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/CMakeFiles/main.dir/carControl/CarControl.cpp.o"
+  "/home/waxnkw/NjuProject/xx/Car/carControl/CarControlMethod.cpp" "/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/CMakeFiles/main.dir/carControl/CarControlMethod.cpp.o"
+  "/home/waxnkw/NjuProject/xx/Car/carControl/GetControlConfig.cpp" "/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/CMakeFiles/main.dir/carControl/GetControlConfig.cpp.o"
+  "/home/waxnkw/NjuProject/xx/Car/carControl/class/Distances.cpp" "/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/CMakeFiles/main.dir/carControl/class/Distances.cpp.o"
+  "/home/waxnkw/NjuProject/xx/Car/carControl/class/PID.cpp" "/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/CMakeFiles/main.dir/carControl/class/PID.cpp.o"
+  "/home/waxnkw/NjuProject/xx/Car/carControl/class/Speeds.cpp" "/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/CMakeFiles/main.dir/carControl/class/Speeds.cpp.o"
+  "/home/waxnkw/NjuProject/xx/Car/imageProcess/process.cpp" "/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/CMakeFiles/main.dir/imageProcess/process.cpp.o"
+  "/home/waxnkw/NjuProject/xx/Car/main.cpp" "/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/CMakeFiles/main.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

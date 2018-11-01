@@ -19,7 +19,8 @@ void controlCar(
         Speeds &stdSpeeds,
         std::string &controlMethod,
         PID &leftPid,
-        PID &rightPid
+        PID &rightPid,
+	int maxSpeed
         );
 
 #endif //LINETRACKINGCAR_CARCONTROL_H

@@ -9,8 +9,9 @@
 using namespace std;
 using namespace cv;
 
-#define CV_DEBUG
-#define PI 3.1415926
+#define CV_SHOW_FINAL
+//#define CV_DEBUG
+#define PI_I 3.1415926
 
 const string CAM_PATH="/dev/video0";
 const string MAIN_WINDOW_NAME="Processed Image";
@@ -21,7 +22,7 @@ const int CANNY_LOWER_BOUND=50;
 const int CANNY_UPPER_BOUND=250;
 
 //hough检测的线段长度阈值
-const int HOUGH_THRESHOLD=70;
+const int HOUGH_THRESHOLD=40;
 
 //resize后的大小
 const int Resized_Width = 512;
@@ -86,7 +87,7 @@ void detect_lines(Mat& x,Mat& img, double ret[]){
 #endif
 
     vector<Vec2f> lines;
-    HoughLines(contours,lines,1,PI/180,HOUGH_THRESHOLD);
+    HoughLines(contours,lines,1,PI_I/180,HOUGH_THRESHOLD);
     Mat result(img.size(),CV_8U,Scalar(255));
     img.copyTo(result);
 
@@ -117,7 +118,7 @@ void detect_lines(Mat& x,Mat& img, double ret[]){
             Point pt2((rho-result.rows*sin(theta))/cos(theta),result.rows);
             left_down = pt2;
             //Draw a line
-#ifdef CV_DEBUG
+#ifdef CV_SHOW_FINAL
             line(x,pt1,pt2,Scalar(0,255,255),3,CV_AA);
             cout<<pt1<<pt2<<endl;
 #endif
@@ -131,7 +132,7 @@ void detect_lines(Mat& x,Mat& img, double ret[]){
             Point pt2((rho-result.rows*sin(theta))/cos(theta),result.rows);
             right_down = pt2;
             //Draw a line
-#ifdef CV_DEBUG
+#ifdef CV_SHOW_FINAL
             line(x,pt1,pt2,Scalar(0,255,255),3,CV_AA);
             cout<<pt1<<pt2<<endl;
 #endif
@@ -142,8 +143,9 @@ void detect_lines(Mat& x,Mat& img, double ret[]){
     double mid  = img.cols/2;
     ret[0] = mid-left_down.x;
     ret[1] = right_down.x>0?right_down.x-mid:mid;
-
+    cout<<"左距离 "<< ret[0]<<"  右距离 "<<ret[1]<<endl;
     imshow(MAIN_WINDOW_NAME,x);
+    waitKey(1);
 }
 
 /**
@@ -183,7 +185,7 @@ void process_img(Mat& img, double ret[]){
     imshow("smooth", tmp);
 #endif
 
-    my_shrink(tmp, tmp);
+    //my_shrink(tmp, tmp);
 #ifdef CV_DEBUG
     imshow("shrink", tmp);
 #endif

@@ -3,7 +3,7 @@
 //
 #include "CarControl.h"
 #include "CarControlMethod.h"
-#include "GPIO/GPIOlib.h"
+#include "../GPIOlib.h"
 #include <iostream>
 
 using namespace GPIO;
@@ -17,7 +17,8 @@ void controlCar(
         Speeds &stdSpeeds,
         std::string &controlMethod,
         PID &leftPid,
-        PID &rightPid)
+        PID &rightPid,
+        int maxSpeed)
 {
 
     Speeds processSpeeds = Speeds(0, 0);
@@ -30,7 +31,31 @@ void controlCar(
     currSpeeds.right = processSpeeds.right;
     init();
     turnTo(0);
-	controlLeft(FORWARD, (int)processSpeeds.left);
-	controlRight(FORWARD, (int)processSpeeds.right);
+    if(processSpeeds.left < 0) {
+        if(processSpeeds.left < -maxSpeed){
+		controlLeft(BACKWARD, maxSpeed);
+        }else {
+		controlLeft(BACKWARD, -(int)processSpeeds.left);
+	}
+    } else{
+	if(processSpeeds.left > maxSpeed){
+		controlLeft(FORWARD, maxSpeed);
+        }else {
+		controlLeft(FORWARD, (int)processSpeeds.left);
+	}
+    }
+    if(processSpeeds.right < 0) {
+        if(processSpeeds.right < -maxSpeed){
+		controlRight(BACKWARD, maxSpeed);
+        }else {
+		controlRight(BACKWARD, -(int)processSpeeds.right);
+	}
+    } else{
+        if(processSpeeds.right > maxSpeed){
+		controlRight(FORWARD, maxSpeed);
+        }else {
+		controlRight(FORWARD, (int)processSpeeds.right);
+	}
+    }
     std::cout << currSpeeds << std::endl;
 }

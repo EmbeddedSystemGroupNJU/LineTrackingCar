@@ -1,16 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/main.cpp.obj"
-  "CMakeFiles/main.dir/imageProcess/process.cpp.obj"
-  "CMakeFiles/main.dir/carControl/class/Speeds.cpp.obj"
-  "CMakeFiles/main.dir/carControl/class/Distances.cpp.obj"
-  "CMakeFiles/main.dir/carControl/class/PID.cpp.obj"
-  "CMakeFiles/main.dir/carControl/CarControlMethod.cpp.obj"
-  "CMakeFiles/main.dir/carControl/GetControlConfig.cpp.obj"
-  "CMakeFiles/main.dir/carControl/CarControl.cpp.obj"
+  "CMakeFiles/main.dir/main.cpp.o"
+  "CMakeFiles/main.dir/imageProcess/process.cpp.o"
+  "CMakeFiles/main.dir/carControl/class/Speeds.cpp.o"
+  "CMakeFiles/main.dir/carControl/class/Distances.cpp.o"
+  "CMakeFiles/main.dir/carControl/class/PID.cpp.o"
+  "CMakeFiles/main.dir/carControl/CarControlMethod.cpp.o"
+  "CMakeFiles/main.dir/carControl/GetControlConfig.cpp.o"
+  "CMakeFiles/main.dir/carControl/CarControl.cpp.o"
   "main.pdb"
-  "main.exe"
-  "main.exe.manifest"
-  "libmain.dll.a"
+  "main"
 )
 
 # Per-language clean rules from dependency scanning.

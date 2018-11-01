@@ -69,6 +69,7 @@ void getControlConfig(ControlConfigs& controlConfigs) {
     controlConfigs.kd = parseDouble(configMap->at("KD"));
     controlConfigs.leftStdSpeed = parseDouble(configMap->at("LEFT_STANDARD_SPEED"));
     controlConfigs.rightStdSpeed = parseDouble(configMap->at("RIGHT_STANDARD_SPEED"));
+    controlConfigs.maxSpeed = parseDouble(configMap->at("MAX_SPEED"));
 
 	delete configMap;
 }

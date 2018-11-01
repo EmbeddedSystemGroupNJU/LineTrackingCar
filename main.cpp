@@ -7,6 +7,7 @@
 #include "carControl/CarControl.h"
 #include <iostream>
 #include <cmath>
+#include "imageProcess/process.cpp"
 
 int main() {
     /*
@@ -36,12 +37,37 @@ int main() {
     Distances currDists = preDists;
     Speeds currSpeeds = preSpeeds;
     double currDir = preDir;
+	
 
+    /**
+     * 相机初始化
+     * */
+    VideoCapture capture(CAM_PATH);
+    //If this fails, try to open as a video camera, through the use of an integer param
+    if (!capture.isOpened())
+    {
+        capture.open(atoi(CAM_PATH.c_str()));
+    }
+
+    double dWidth=capture.get(CV_CAP_PROP_FRAME_WIDTH);			//the width of frames of the video
+    double dHeight=capture.get(CV_CAP_PROP_FRAME_HEIGHT);		//the height of frames of the video
+    clog<<"Frame Size: "<<dWidth<<"x"<<dHeight<<endl;
+    //init()
+    Mat image;
+
+
+	
     while(true) {
         /*
          * 图片处理
          */
+        capture>>image;
+        if(image.empty())
+            break;
+        double ret;
+        process_img(image,controlParams);
 
+	
         /*
          * 小车控制
          */
@@ -53,7 +79,8 @@ int main() {
                    currDists, currSpeeds,
                    stdSpeeds,
                    controlConfigs.controlMethod,
-                   *leftPid, *rightPid);
+                   *leftPid, *rightPid,
+		   controlConfigs.maxSpeed);
         
         preDists = currDists;
         preSpeeds = currSpeeds;
