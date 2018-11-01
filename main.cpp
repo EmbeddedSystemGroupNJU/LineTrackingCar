@@ -75,12 +75,10 @@ int main() {
         currDists.right = controlParams[1];
         currDir = controlParams[2];
 
-        controlCar(preDists, preSpeeds, preDir,
+        controlCar(preDists, preSpeeds,
                    currDists, currSpeeds,
                    stdSpeeds,
-                   controlConfigs.controlMethod,
-                   *leftPid, *rightPid,
-		   controlConfigs.maxSpeed);
+                   *leftPid, *rightPid);
         
         preDists = currDists;
         preSpeeds = currSpeeds;

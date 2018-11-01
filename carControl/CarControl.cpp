@@ -3,59 +3,65 @@
 //
 #include "CarControl.h"
 #include "CarControlMethod.h"
-#include "../GPIOlib.h"
+#include "GPIO/GPIOlib.h"
 #include <iostream>
 
 using namespace GPIO;
 
+const int MAX_SPEED = 10;
+const int TURN_ANGLE = 10;
+const double THRESHOLD = 0.7;
+
 void controlCar(
         Distances &preDists,
         Speeds &preSpeeds,
-        double preDir,
         Distances &currDists,
         Speeds &currSpeeds,
         Speeds &stdSpeeds,
-        std::string &controlMethod,
         PID &leftPid,
-        PID &rightPid,
-        int maxSpeed)
+        PID &rightPid)
 {
 
     Speeds processSpeeds = Speeds(0, 0);
-    if (controlMethod == "RIGHT_DISTANCE_CONTROL") {
-        processSpeeds = rightDistancePidControl(preDists, stdSpeeds, rightPid);
-    }else if (controlMethod == "BOTH_DISTANCE_CONTROL") {
-        processSpeeds = bothDistancePidControl(preDists, preSpeeds, preDir, currDists, stdSpeeds, leftPid, rightPid);
+    processSpeeds = rightDistancePidControl(preDists, stdSpeeds, rightPid);
+
+
+    if (processSpeeds.left > MAX_SPEED){
+        processSpeeds.left = MAX_SPEED;
+    } else if (processSpeeds.left < -MAX_SPEED){
+        processSpeeds.left = -MAX_SPEED;
+    }
+
+    if (processSpeeds.right > MAX_SPEED) {
+        processSpeeds.right = MAX_SPEED;
+    } else if (processSpeeds.right < -MAX_SPEED) {
+        processSpeeds.right = -MAX_SPEED;
     }
     currSpeeds.left = processSpeeds.left;
     currSpeeds.right = processSpeeds.right;
+
+    double leftRate = preDists.left / (preDists.left + preDists.right);
+    double rightRate = preDists.right / (preDists.left + preDists.right);
+
     init();
-    turnTo(0);
-    if(processSpeeds.left < 0) {
-        if(processSpeeds.left < -maxSpeed){
-		controlLeft(BACKWARD, maxSpeed);
-        }else {
-		controlLeft(BACKWARD, -(int)processSpeeds.left);
-	}
+
+    if (leftRate > THRESHOLD) {
+        turnTo(TURN_ANGLE);
+    } else if (rightRate > THRESHOLD) {
+        turnTo(-TURN_ANGLE);
     } else{
-	if(processSpeeds.left > maxSpeed){
-		controlLeft(FORWARD, maxSpeed);
-        }else {
-		controlLeft(FORWARD, (int)processSpeeds.left);
-	}
+        turnTo(0);
     }
-    if(processSpeeds.right < 0) {
-        if(processSpeeds.right < -maxSpeed){
-		controlRight(BACKWARD, maxSpeed);
-        }else {
-		controlRight(BACKWARD, -(int)processSpeeds.right);
-	}
+
+    if (processSpeeds.left < 0){
+        controlLeft(BACKWARD, (int)processSpeeds.left);
     } else{
-        if(processSpeeds.right > maxSpeed){
-		controlRight(FORWARD, maxSpeed);
-        }else {
-		controlRight(FORWARD, (int)processSpeeds.right);
-	}
+        controlLeft(FORWARD, (int)processSpeeds.left);
+    }
+    if (processSpeeds.right < 0) {
+        controlRight(BACKWARD, (int)processSpeeds.right);
+    }else {
+        controlRight(FORWARD, (int)processSpeeds.right);
     }
     std::cout << currSpeeds << std::endl;
 }

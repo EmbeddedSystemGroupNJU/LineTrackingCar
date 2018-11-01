@@ -13,14 +13,10 @@
 void controlCar(
         Distances &preDists,
         Speeds &preSpeeds,
-        double preDir,
         Distances &currDists,
         Speeds &currSpeeds,
         Speeds &stdSpeeds,
-        std::string &controlMethod,
         PID &leftPid,
-        PID &rightPid,
-	int maxSpeed
-        );
+        PID &rightPid);
 
 #endif //LINETRACKINGCAR_CARCONTROL_H
