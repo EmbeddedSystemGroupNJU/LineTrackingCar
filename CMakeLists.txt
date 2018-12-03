@@ -1,5 +1,9 @@
 # CMake 最低版本号要求
 cmake_minimum_required (VERSION 2.8)
+#
+#find_package(OpenCV REQUIRED)
+#
+#target_link_libraries(project_name ${OpenCV_LIBS})
 
 # 项目信息
 project (LineTrackingCar)
@@ -9,17 +13,18 @@ add_executable(
         main
         main.cpp
         imageProcess/process.cpp
-        carControl/class/Speeds.cpp
-        carControl/class/Speeds.h
-        carControl/class/Distances.cpp
-        carControl/class/Distances.h
-        carControl/class/ControlConfigs.h
-        carControl/class/PID.cpp
-        carControl/class/PID.h
-        carControl/CarControlMethod.cpp
-        carControl/CarControlMethod.h
-        carControl/GetControlConfig.cpp
-        carControl/GetControlConfig.h
-        carControl/CarControl.cpp
-        carControl/CarControl.h
+        abandonCarControl/class/Speeds.cpp
+        abandonCarControl/class/Speeds.h
+        abandonCarControl/class/Distances.cpp
+        abandonCarControl/class/Distances.h
+        abandonCarControl/class/ControlConfigs.h
+        abandonCarControl/class/PID.cpp
+        abandonCarControl/class/PID.h
+        abandonCarControl/CarControlMethod.cpp
+        abandonCarControl/CarControlMethod.h
+        abandonCarControl/GetControlConfig.cpp
+        abandonCarControl/GetControlConfig.h
+        abandonCarControl/CarControl.cpp
+        abandonCarControl/CarControl.h
+        carControl/carControl.cpp
 )

@@ -8,128 +8,127 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/waxnkw/NjuProject/xx/Car/cmake-build-debug"/>
+				<Option working_dir="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/waxnkw/NjuProject/xx/Car/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/waxnkw/NjuProject/xx/Car/cmake-build-debug"/>
+				<Option working_dir="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main">
-				<Option output="/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/waxnkw/NjuProject/xx/Car/cmake-build-debug"/>
+				<Option output="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main/fast">
-				<Option output="/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/waxnkw/NjuProject/xx/Car/cmake-build-debug"/>
+				<Option output="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/waxnkw/NjuProject/xx/Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/waxnkw/NjuProject/xx/Car/carControl/CarControl.cpp">
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/waxnkw/NjuProject/xx/Car/carControl/CarControl.h">
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/CarControl.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/waxnkw/NjuProject/xx/Car/carControl/CarControlMethod.cpp">
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/CarControl.h">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/waxnkw/NjuProject/xx/Car/carControl/CarControlMethod.h">
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/CarControlMethod.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/waxnkw/NjuProject/xx/Car/carControl/GetControlConfig.cpp">
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/CarControlMethod.h">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/waxnkw/NjuProject/xx/Car/carControl/GetControlConfig.h">
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/GetControlConfig.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/waxnkw/NjuProject/xx/Car/carControl/class/ControlConfigs.h">
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/GetControlConfig.h">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/waxnkw/NjuProject/xx/Car/carControl/class/Distances.cpp">
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/class/ControlConfigs.h">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/waxnkw/NjuProject/xx/Car/carControl/class/Distances.h">
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/class/Distances.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/waxnkw/NjuProject/xx/Car/carControl/class/PID.cpp">
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/class/Distances.h">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/waxnkw/NjuProject/xx/Car/carControl/class/PID.h">
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/class/PID.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/waxnkw/NjuProject/xx/Car/carControl/class/Speeds.cpp">
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/class/PID.h">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/waxnkw/NjuProject/xx/Car/carControl/class/Speeds.h">
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/class/Speeds.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/waxnkw/NjuProject/xx/Car/imageProcess/process.cpp">
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/class/Speeds.h">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/waxnkw/NjuProject/xx/Car/main.cpp">
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/imageProcess/process.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/home/waxnkw/NjuProject/xx/Car/CMakeLists.txt">
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
