@@ -1,5 +1,4 @@
 #include "GPIO/GPIOlib.h"
-#include <iostream>
 
 using namespace GPIO;
 

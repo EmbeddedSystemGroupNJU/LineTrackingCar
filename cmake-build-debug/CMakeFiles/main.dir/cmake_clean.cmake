@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.cpp.obj"
+  "CMakeFiles/main.dir/carControl/control_3.cpp.obj"
   "main.pdb"
   "main.exe"
   "main.exe.manifest"

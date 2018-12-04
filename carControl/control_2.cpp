@@ -7,12 +7,13 @@ using namespace std;
 const int FIRST_THRESHOLD = 50;
 const int FIRST_DEGREE = 15;
 const int FIRST_DELAY = 30;
+
 const int SECOND_THRESHOLD = 100;
 const int SECOND_DEGREE = 25;
 const int SECOND_DELAY = 20;
 
-const int STRAIGHT_DELAY = 30;
 
+const int STRAIGHT_DELAY = 30;
 
 void control(double left, double right){
     if (left - right < FIRST_THRESHOLD && right - left < FIRST_THRESHOLD){

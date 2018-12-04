@@ -122,6 +122,33 @@ main/fast:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+carControl/control_3.obj: carControl/control_3.cpp.obj
+
+.PHONY : carControl/control_3.obj
+
+# target to build an object file
+carControl/control_3.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/control_3.cpp.obj
+.PHONY : carControl/control_3.cpp.obj
+
+carControl/control_3.i: carControl/control_3.cpp.i
+
+.PHONY : carControl/control_3.i
+
+# target to preprocess a source file
+carControl/control_3.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/control_3.cpp.i
+.PHONY : carControl/control_3.cpp.i
+
+carControl/control_3.s: carControl/control_3.cpp.s
+
+.PHONY : carControl/control_3.s
+
+# target to generate assembly for a file
+carControl/control_3.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/control_3.cpp.s
+.PHONY : carControl/control_3.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... main
 	@echo ... rebuild_cache
+	@echo ... carControl/control_3.obj
+	@echo ... carControl/control_3.i
+	@echo ... carControl/control_3.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
