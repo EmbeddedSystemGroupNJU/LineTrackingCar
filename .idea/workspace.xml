@@ -12,12 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beede3be-c419-4fa9-b203-5ef4e33fc041" name="Default" comment="添加新控制方法">
-      <change afterPath="$PROJECT_DIR$/carControl/control_3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/carControl/control_4.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carControl/control_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/carControl/control_1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carControl/control_2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/carControl/control_2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carControl/initControl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/carControl/initControl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carControl/control_3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/carControl/control_3.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
@@ -40,7 +39,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cmake" value="2" />
-          <entry key="cpp" value="37" />
+          <entry key="cpp" value="46" />
           <entry key="h" value="14" />
           <entry key="log" value="1" />
           <entry key="sh" value="4" />
@@ -52,20 +51,20 @@
           <entry key="Bash" value="2" />
           <entry key="CMakeCache.txt" value="1" />
           <entry key="CMakeLists.txt" value="7" />
-          <entry key="ObjectiveC" value="51" />
+          <entry key="ObjectiveC" value="60" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1755" />
+          <entry key="cpp" value="1977" />
           <entry key="txt" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="48" />
-          <entry key="ObjectiveC" value="1755" />
+          <entry key="ObjectiveC" value="1977" />
           <entry key="PLAIN_TEXT" value="89" />
         </counts>
       </usages-collector>
@@ -86,10 +85,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carControl/control_1.cpp">
+        <entry file="file://$PROJECT_DIR$/carControl/control_2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="152">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -98,10 +97,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/carControl/control_3.cpp">
+        <entry file="file://$PROJECT_DIR$/carControl/control_1.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="286">
+              <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -110,19 +109,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carControl/initControl.cpp">
+        <entry file="file://$PROJECT_DIR$/carControl/control_3.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
+            <state relative-caret-position="304">
+              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carControl/control_2.cpp">
+        <entry file="file://$PROJECT_DIR$/carControl/control_4.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="343">
+              <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="44" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -177,9 +179,10 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/carControl/initControl.cpp" />
+        <option value="$PROJECT_DIR$/carControl/control_2.cpp" />
+        <option value="$PROJECT_DIR$/carControl/control_4.cpp" />
         <option value="$PROJECT_DIR$/carControl/control_3.cpp" />
         <option value="$PROJECT_DIR$/carControl/control_1.cpp" />
-        <option value="$PROJECT_DIR$/carControl/control_2.cpp" />
       </list>
     </option>
   </component>
@@ -189,7 +192,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1390" />
     <option name="height" value="1756" />
@@ -205,6 +208,11 @@
             <path>
               <item name="LineTrackingCar" type="b2602c69:ProjectViewProjectNode" />
               <item name="LineTrackingCar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LineTrackingCar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LineTrackingCar" type="462c0819:PsiDirectoryNode" />
+              <item name="abandonCarControl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LineTrackingCar" type="b2602c69:ProjectViewProjectNode" />
@@ -281,7 +289,7 @@
       <workItem from="1541989537389" duration="3418000" />
       <workItem from="1543826291836" duration="1660000" />
       <workItem from="1543930775896" duration="373000" />
-      <workItem from="1543935774276" duration="3817000" />
+      <workItem from="1543935774276" duration="4665000" />
     </task>
     <task id="LOCAL-00001" summary="将图像处理中的文件加入到CMakeLists中">
       <created>1540053320555</created>
@@ -318,22 +326,29 @@
       <option name="project" value="LOCAL" />
       <updated>1543939059820</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="添加新控制方法">
+      <created>1543939745333</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543939745333</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16692000" />
+    <option name="totallyTimeSpent" value="17540000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="695" height="878" extended-state="0" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29042387" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13983372" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32669324" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -428,13 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/abandonCarControl/CarControlMethod.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="61" column="1" selection-start-line="32" selection-end-line="61" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/abandonCarControl/class/Distances.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -478,13 +486,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/carControl/GPIO/GPIOlib.h">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abandonCarControl/CarControl.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-513">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fake.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -559,13 +560,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carControl/control_1.cpp">
+    <entry file="file://$PROJECT_DIR$/abandonCarControl/CarControl.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -579,10 +577,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/abandonCarControl/CarControlMethod.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carControl/control_4.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/carControl/control_3.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="304">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carControl/control_1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>

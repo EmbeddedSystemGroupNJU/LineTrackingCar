@@ -29,6 +29,7 @@ void control(double left, double right){
     int direction =  DEGREE * (preResult / NORM);
     direction = direction > DEGREE? DEGREE: direction;
 
+    cout << "pid increment:" << increment << endl;
     cout << "direction: " << direction << endl;
     turnTo(direction);
     delay(DELAY);

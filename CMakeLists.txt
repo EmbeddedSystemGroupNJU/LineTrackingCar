@@ -16,4 +16,4 @@ add_executable(
 #        carControl/control_1.cpp
 #        carControl/control_2.cpp
 #        carControl/initControl.cpp
-        carControl/control_3.cpp)
+        carControl/control_3.cpp carControl/control_4.cpp)

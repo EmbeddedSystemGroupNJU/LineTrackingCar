@@ -83,6 +83,9 @@
 		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/control_3.cpp">
 			<Option target="main"/>
 		</Unit>
+		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/control_4.cpp">
+			<Option target="main"/>
+		</Unit>
 		<Unit filename="C:/Users/leich/Projects/CLionProjects/LineTrackingCar/main.cpp">
 			<Option target="main"/>
 		</Unit>

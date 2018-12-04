@@ -149,6 +149,33 @@ carControl/control_3.cpp.s:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/control_3.cpp.s
 .PHONY : carControl/control_3.cpp.s
 
+carControl/control_4.obj: carControl/control_4.cpp.obj
+
+.PHONY : carControl/control_4.obj
+
+# target to build an object file
+carControl/control_4.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/control_4.cpp.obj
+.PHONY : carControl/control_4.cpp.obj
+
+carControl/control_4.i: carControl/control_4.cpp.i
+
+.PHONY : carControl/control_4.i
+
+# target to preprocess a source file
+carControl/control_4.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/control_4.cpp.i
+.PHONY : carControl/control_4.cpp.i
+
+carControl/control_4.s: carControl/control_4.cpp.s
+
+.PHONY : carControl/control_4.s
+
+# target to generate assembly for a file
+carControl/control_4.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/control_4.cpp.s
+.PHONY : carControl/control_4.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -188,6 +215,9 @@ help:
 	@echo ... carControl/control_3.obj
 	@echo ... carControl/control_3.i
 	@echo ... carControl/control_3.s
+	@echo ... carControl/control_4.obj
+	@echo ... carControl/control_4.i
+	@echo ... carControl/control_4.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
