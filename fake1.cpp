@@ -5,29 +5,38 @@
 using namespace GPIO;
 
 
-void adj_v(int ldis, int rdis){
+void adj_v(double ldis, double rdis){
     if (ldis-rdis<50 && ldis-rdis>-50){
         turnTo(0);
-        delay(40);
+        delay(30);
     }
     else if(ldis-rdis>50){
-		turnTo(-10);  
-		delay(18);
+        turnTo(-15);
+        delay(20);
+        cout<<"turn left"<<endl;
+        
+    }
+    else if(rdis-ldis>50){
+        turnTo(15);
+        delay(20);
+        cout<<"turn right"<<endl;
+        
+    }
+    else if(ldis-rdis>100){
+		turnTo(-25);  
+		delay(15);
 		cout<<"turn left"<<endl;
 		//turnTo(0);
-		//delay(30);
+		//ssdelay(30);
 	}
-	else if(rdis-ldis>50){
-		turnTo(10);
-		delay(18);
+	else if(rdis-ldis>100){
+		turnTo(25);
+		delay(15);
 		cout<<"turn right"<<endl;
 		//turnTo(0);
-		//delay(30);
+		//delay(15);
 	}
-	//controlLeft(FORWARD, left);
-	//controlRight(FORWARD, right);
-	//delay(50);
-	//turnTo(0);
+
 }
 
 int main(){
@@ -48,10 +57,10 @@ int main(){
 	Mat image;
 
 	init();
-	controlLeft(FORWARD, 9);
-	controlRight(FORWARD, 9);
+	controlLeft(FORWARD, 10);
+	controlRight(FORWARD, 10);
 
-    int ret[2];
+    double ret[2];
 	while(true) {
 		/*
          * 图片处理
