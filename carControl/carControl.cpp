@@ -14,7 +14,7 @@ double firPreErr = 0;
 double secPreErr = 0;
 double preResult = 0;
 
-void control(int left, int right){
+void control(double left, double right){
     double err = left - right;
     double increment = A * err + B * firPreErr + C * secPreErr;
     preResult += increment;

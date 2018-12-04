@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/carControl.cpp.obj"
-  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/CarControl.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/carControl/CarControl.cpp.obj"
-  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/CarControlMethod.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/carControl/CarControlMethod.cpp.obj"
-  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/GetControlConfig.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/carControl/GetControlConfig.cpp.obj"
-  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/class/Distances.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/carControl/class/Distances.cpp.obj"
-  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/class/PID.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/carControl/class/PID.cpp.obj"
-  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/class/Speeds.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/carControl/class/Speeds.cpp.obj"
+  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/abandonCarControl/CarControl.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/abandonCarControl/CarControl.cpp.obj"
+  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/abandonCarControl/CarControlMethod.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/abandonCarControl/CarControlMethod.cpp.obj"
+  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/abandonCarControl/GetControlConfig.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/abandonCarControl/GetControlConfig.cpp.obj"
+  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/abandonCarControl/class/Distances.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/abandonCarControl/class/Distances.cpp.obj"
+  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/abandonCarControl/class/PID.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/abandonCarControl/class/PID.cpp.obj"
+  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/abandonCarControl/class/Speeds.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/abandonCarControl/class/Speeds.cpp.obj"
+  "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/carControl/carControl.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/carControl/carControl.cpp.obj"
   "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/imageProcess/process.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/imageProcess/process.cpp.obj"
   "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/main.cpp" "C:/Users/leich/Projects/CLionProjects/LineTrackingCar/cmake-build-debug/CMakeFiles/main.dir/main.cpp.obj"
   )
