@@ -1,7 +1,7 @@
 //
 // Created by leich on 2018/10/19.
 //
-#include "CarControl.h"
+#include "control_1.h"
 #include "CarControlMethod.h"
 #include "GPIO/GPIOlib.h"
 #include <iostream>

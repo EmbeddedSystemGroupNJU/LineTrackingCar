@@ -12,19 +12,8 @@ project (LineTrackingCar)
 add_executable(
         main
         main.cpp
-        imageProcess/process.cpp
-        abandonCarControl/class/Speeds.cpp
-        abandonCarControl/class/Speeds.h
-        abandonCarControl/class/Distances.cpp
-        abandonCarControl/class/Distances.h
-        abandonCarControl/class/ControlConfigs.h
-        abandonCarControl/class/PID.cpp
-        abandonCarControl/class/PID.h
-        abandonCarControl/CarControlMethod.cpp
-        abandonCarControl/CarControlMethod.h
-        abandonCarControl/GetControlConfig.cpp
-        abandonCarControl/GetControlConfig.h
-        abandonCarControl/CarControl.cpp
-        abandonCarControl/CarControl.h
-        carControl/carControl.cpp
+#        imageProcess/process.cpp
+#        carControl/control_1.cpp
+#        carControl/control_2.cpp
+#        carControl/initControl.cpp
 )
