@@ -11,53 +11,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beede3be-c419-4fa9-b203-5ef4e33fc041" name="Default" comment="修改carcontrol">
-      <change afterPath="$PROJECT_DIR$/carControl/carControl.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="beede3be-c419-4fa9-b203-5ef4e33fc041" name="Default" comment="添加简单的PID控制">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carControl/CarControl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abandonCarControl/CarControl.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carControl/CarControl.h" beforeDir="false" afterPath="$PROJECT_DIR$/abandonCarControl/CarControl.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carControl/CarControlMethod.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abandonCarControl/CarControlMethod.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carControl/CarControlMethod.h" beforeDir="false" afterPath="$PROJECT_DIR$/abandonCarControl/CarControlMethod.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carControl/ControlConfiguration.txt" beforeDir="false" afterPath="$PROJECT_DIR$/abandonCarControl/ControlConfiguration.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carControl/GetControlConfig.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abandonCarControl/GetControlConfig.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carControl/GetControlConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/abandonCarControl/GetControlConfig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carControl/class/ControlConfigs.h" beforeDir="false" afterPath="$PROJECT_DIR$/abandonCarControl/class/ControlConfigs.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carControl/class/Distances.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abandonCarControl/class/Distances.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carControl/class/Distances.h" beforeDir="false" afterPath="$PROJECT_DIR$/abandonCarControl/class/Distances.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carControl/class/PID.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abandonCarControl/class/PID.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carControl/class/PID.h" beforeDir="false" afterPath="$PROJECT_DIR$/abandonCarControl/class/PID.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carControl/class/Speeds.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abandonCarControl/class/Speeds.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carControl/class/Speeds.h" beforeDir="false" afterPath="$PROJECT_DIR$/abandonCarControl/class/Speeds.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carControl/CarControl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/carControl/carControl.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/LineTrackingCar.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LineTrackingCar.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,25 +53,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cpp" value="642" />
-          <entry key="txt" value="99" />
+          <entry key="txt" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="46" />
           <entry key="ObjectiveC" value="642" />
-          <entry key="PLAIN_TEXT" value="53" />
+          <entry key="PLAIN_TEXT" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -245,7 +208,8 @@
       <workItem from="1541087077574" duration="159000" />
       <workItem from="1541087263761" duration="691000" />
       <workItem from="1541989537389" duration="3418000" />
-      <workItem from="1543826291836" duration="1449000" />
+      <workItem from="1543826291836" duration="1660000" />
+      <workItem from="1543930775896" duration="373000" />
     </task>
     <task id="LOCAL-00001" summary="将图像处理中的文件加入到CMakeLists中">
       <created>1540053320555</created>
@@ -261,16 +225,23 @@
       <option name="project" value="LOCAL" />
       <updated>1541083202611</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加简单的PID控制">
+      <created>1543829969174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543829969174</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12291000" />
+    <option name="totallyTimeSpent" value="12875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13605443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13756613" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -280,7 +251,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49962208" weight="0.32934928" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49962208" visible="true" weight="0.32934928" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50037795" side_tool="true" weight="0.32934928" />
       <window_info anchor="bottom" id="CMake" order="10" weight="0.32934928" />
@@ -326,7 +297,8 @@
     <MESSAGE value="添加控制小车的测试" />
     <MESSAGE value="将图像处理中的文件加入到CMakeLists中" />
     <MESSAGE value="修改carcontrol" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改carcontrol" />
+    <MESSAGE value="添加简单的PID控制" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加简单的PID控制" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/abandonCarControl/class/ControlConfigs.h">

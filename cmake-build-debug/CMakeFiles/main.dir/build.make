@@ -82,121 +82,121 @@ CMakeFiles/main.dir/imageProcess/process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/imageProcess/process.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leich\Projects\CLionProjects\LineTrackingCar\imageProcess\process.cpp -o CMakeFiles\main.dir\imageProcess\process.cpp.s
 
-CMakeFiles/main.dir/carControl/class/Speeds.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/carControl/class/Speeds.cpp.obj: ../carControl/class/Speeds.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leich\Projects\CLionProjects\LineTrackingCar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/carControl/class/Speeds.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\carControl\class\Speeds.cpp.obj -c C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\class\Speeds.cpp
+CMakeFiles/main.dir/abandonCarControl/class/Speeds.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/abandonCarControl/class/Speeds.cpp.obj: ../abandonCarControl/class/Speeds.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leich\Projects\CLionProjects\LineTrackingCar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/abandonCarControl/class/Speeds.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\abandonCarControl\class\Speeds.cpp.obj -c C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\class\Speeds.cpp
 
-CMakeFiles/main.dir/carControl/class/Speeds.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/carControl/class/Speeds.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\class\Speeds.cpp > CMakeFiles\main.dir\carControl\class\Speeds.cpp.i
+CMakeFiles/main.dir/abandonCarControl/class/Speeds.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/abandonCarControl/class/Speeds.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\class\Speeds.cpp > CMakeFiles\main.dir\abandonCarControl\class\Speeds.cpp.i
 
-CMakeFiles/main.dir/carControl/class/Speeds.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/carControl/class/Speeds.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\class\Speeds.cpp -o CMakeFiles\main.dir\carControl\class\Speeds.cpp.s
+CMakeFiles/main.dir/abandonCarControl/class/Speeds.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/abandonCarControl/class/Speeds.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\class\Speeds.cpp -o CMakeFiles\main.dir\abandonCarControl\class\Speeds.cpp.s
 
-CMakeFiles/main.dir/carControl/class/Distances.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/carControl/class/Distances.cpp.obj: ../carControl/class/Distances.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leich\Projects\CLionProjects\LineTrackingCar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/carControl/class/Distances.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\carControl\class\Distances.cpp.obj -c C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\class\Distances.cpp
+CMakeFiles/main.dir/abandonCarControl/class/Distances.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/abandonCarControl/class/Distances.cpp.obj: ../abandonCarControl/class/Distances.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leich\Projects\CLionProjects\LineTrackingCar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/abandonCarControl/class/Distances.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\abandonCarControl\class\Distances.cpp.obj -c C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\class\Distances.cpp
 
-CMakeFiles/main.dir/carControl/class/Distances.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/carControl/class/Distances.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\class\Distances.cpp > CMakeFiles\main.dir\carControl\class\Distances.cpp.i
+CMakeFiles/main.dir/abandonCarControl/class/Distances.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/abandonCarControl/class/Distances.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\class\Distances.cpp > CMakeFiles\main.dir\abandonCarControl\class\Distances.cpp.i
 
-CMakeFiles/main.dir/carControl/class/Distances.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/carControl/class/Distances.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\class\Distances.cpp -o CMakeFiles\main.dir\carControl\class\Distances.cpp.s
+CMakeFiles/main.dir/abandonCarControl/class/Distances.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/abandonCarControl/class/Distances.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\class\Distances.cpp -o CMakeFiles\main.dir\abandonCarControl\class\Distances.cpp.s
 
-CMakeFiles/main.dir/carControl/class/PID.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/carControl/class/PID.cpp.obj: ../carControl/class/PID.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leich\Projects\CLionProjects\LineTrackingCar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/carControl/class/PID.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\carControl\class\PID.cpp.obj -c C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\class\PID.cpp
+CMakeFiles/main.dir/abandonCarControl/class/PID.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/abandonCarControl/class/PID.cpp.obj: ../abandonCarControl/class/PID.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leich\Projects\CLionProjects\LineTrackingCar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/abandonCarControl/class/PID.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\abandonCarControl\class\PID.cpp.obj -c C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\class\PID.cpp
 
-CMakeFiles/main.dir/carControl/class/PID.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/carControl/class/PID.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\class\PID.cpp > CMakeFiles\main.dir\carControl\class\PID.cpp.i
+CMakeFiles/main.dir/abandonCarControl/class/PID.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/abandonCarControl/class/PID.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\class\PID.cpp > CMakeFiles\main.dir\abandonCarControl\class\PID.cpp.i
 
-CMakeFiles/main.dir/carControl/class/PID.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/carControl/class/PID.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\class\PID.cpp -o CMakeFiles\main.dir\carControl\class\PID.cpp.s
+CMakeFiles/main.dir/abandonCarControl/class/PID.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/abandonCarControl/class/PID.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\class\PID.cpp -o CMakeFiles\main.dir\abandonCarControl\class\PID.cpp.s
 
-CMakeFiles/main.dir/carControl/CarControlMethod.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/carControl/CarControlMethod.cpp.obj: ../carControl/CarControlMethod.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leich\Projects\CLionProjects\LineTrackingCar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/carControl/CarControlMethod.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\carControl\CarControlMethod.cpp.obj -c C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\CarControlMethod.cpp
+CMakeFiles/main.dir/abandonCarControl/CarControlMethod.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/abandonCarControl/CarControlMethod.cpp.obj: ../abandonCarControl/CarControlMethod.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leich\Projects\CLionProjects\LineTrackingCar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/abandonCarControl/CarControlMethod.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\abandonCarControl\CarControlMethod.cpp.obj -c C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\CarControlMethod.cpp
 
-CMakeFiles/main.dir/carControl/CarControlMethod.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/carControl/CarControlMethod.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\CarControlMethod.cpp > CMakeFiles\main.dir\carControl\CarControlMethod.cpp.i
+CMakeFiles/main.dir/abandonCarControl/CarControlMethod.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/abandonCarControl/CarControlMethod.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\CarControlMethod.cpp > CMakeFiles\main.dir\abandonCarControl\CarControlMethod.cpp.i
 
-CMakeFiles/main.dir/carControl/CarControlMethod.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/carControl/CarControlMethod.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\CarControlMethod.cpp -o CMakeFiles\main.dir\carControl\CarControlMethod.cpp.s
+CMakeFiles/main.dir/abandonCarControl/CarControlMethod.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/abandonCarControl/CarControlMethod.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\CarControlMethod.cpp -o CMakeFiles\main.dir\abandonCarControl\CarControlMethod.cpp.s
 
-CMakeFiles/main.dir/carControl/GetControlConfig.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/carControl/GetControlConfig.cpp.obj: ../carControl/GetControlConfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leich\Projects\CLionProjects\LineTrackingCar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/carControl/GetControlConfig.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\carControl\GetControlConfig.cpp.obj -c C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\GetControlConfig.cpp
+CMakeFiles/main.dir/abandonCarControl/GetControlConfig.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/abandonCarControl/GetControlConfig.cpp.obj: ../abandonCarControl/GetControlConfig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leich\Projects\CLionProjects\LineTrackingCar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/abandonCarControl/GetControlConfig.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\abandonCarControl\GetControlConfig.cpp.obj -c C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\GetControlConfig.cpp
 
-CMakeFiles/main.dir/carControl/GetControlConfig.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/carControl/GetControlConfig.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\GetControlConfig.cpp > CMakeFiles\main.dir\carControl\GetControlConfig.cpp.i
+CMakeFiles/main.dir/abandonCarControl/GetControlConfig.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/abandonCarControl/GetControlConfig.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\GetControlConfig.cpp > CMakeFiles\main.dir\abandonCarControl\GetControlConfig.cpp.i
 
-CMakeFiles/main.dir/carControl/GetControlConfig.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/carControl/GetControlConfig.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\GetControlConfig.cpp -o CMakeFiles\main.dir\carControl\GetControlConfig.cpp.s
+CMakeFiles/main.dir/abandonCarControl/GetControlConfig.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/abandonCarControl/GetControlConfig.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\GetControlConfig.cpp -o CMakeFiles\main.dir\abandonCarControl\GetControlConfig.cpp.s
 
-CMakeFiles/main.dir/carControl/CarControl.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/carControl/CarControl.cpp.obj: ../carControl/CarControl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leich\Projects\CLionProjects\LineTrackingCar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/carControl/CarControl.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\carControl\CarControl.cpp.obj -c C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\CarControl.cpp
+CMakeFiles/main.dir/abandonCarControl/CarControl.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/abandonCarControl/CarControl.cpp.obj: ../abandonCarControl/CarControl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leich\Projects\CLionProjects\LineTrackingCar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/abandonCarControl/CarControl.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\abandonCarControl\CarControl.cpp.obj -c C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\CarControl.cpp
 
-CMakeFiles/main.dir/carControl/CarControl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/carControl/CarControl.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\CarControl.cpp > CMakeFiles\main.dir\carControl\CarControl.cpp.i
+CMakeFiles/main.dir/abandonCarControl/CarControl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/abandonCarControl/CarControl.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\CarControl.cpp > CMakeFiles\main.dir\abandonCarControl\CarControl.cpp.i
 
-CMakeFiles/main.dir/carControl/CarControl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/carControl/CarControl.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\CarControl.cpp -o CMakeFiles\main.dir\carControl\CarControl.cpp.s
+CMakeFiles/main.dir/abandonCarControl/CarControl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/abandonCarControl/CarControl.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leich\Projects\CLionProjects\LineTrackingCar\abandonCarControl\CarControl.cpp -o CMakeFiles\main.dir\abandonCarControl\CarControl.cpp.s
 
-CMakeFiles/main.dir/carControl.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/carControl.cpp.obj: ../carControl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leich\Projects\CLionProjects\LineTrackingCar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/carControl.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\carControl.cpp.obj -c C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl.cpp
+CMakeFiles/main.dir/carControl/carControl.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/carControl/carControl.cpp.obj: ../carControl/carControl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\leich\Projects\CLionProjects\LineTrackingCar\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/carControl/carControl.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\main.dir\carControl\carControl.cpp.obj -c C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\carControl.cpp
 
-CMakeFiles/main.dir/carControl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/carControl.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl.cpp > CMakeFiles\main.dir\carControl.cpp.i
+CMakeFiles/main.dir/carControl/carControl.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/carControl/carControl.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\carControl.cpp > CMakeFiles\main.dir\carControl\carControl.cpp.i
 
-CMakeFiles/main.dir/carControl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/carControl.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl.cpp -o CMakeFiles\main.dir\carControl.cpp.s
+CMakeFiles/main.dir/carControl/carControl.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/carControl/carControl.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leich\Projects\CLionProjects\LineTrackingCar\carControl\carControl.cpp -o CMakeFiles\main.dir\carControl\carControl.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.obj" \
 "CMakeFiles/main.dir/imageProcess/process.cpp.obj" \
-"CMakeFiles/main.dir/carControl/class/Speeds.cpp.obj" \
-"CMakeFiles/main.dir/carControl/class/Distances.cpp.obj" \
-"CMakeFiles/main.dir/carControl/class/PID.cpp.obj" \
-"CMakeFiles/main.dir/carControl/CarControlMethod.cpp.obj" \
-"CMakeFiles/main.dir/carControl/GetControlConfig.cpp.obj" \
-"CMakeFiles/main.dir/carControl/CarControl.cpp.obj" \
-"CMakeFiles/main.dir/carControl.cpp.obj"
+"CMakeFiles/main.dir/abandonCarControl/class/Speeds.cpp.obj" \
+"CMakeFiles/main.dir/abandonCarControl/class/Distances.cpp.obj" \
+"CMakeFiles/main.dir/abandonCarControl/class/PID.cpp.obj" \
+"CMakeFiles/main.dir/abandonCarControl/CarControlMethod.cpp.obj" \
+"CMakeFiles/main.dir/abandonCarControl/GetControlConfig.cpp.obj" \
+"CMakeFiles/main.dir/abandonCarControl/CarControl.cpp.obj" \
+"CMakeFiles/main.dir/carControl/carControl.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main.exe: CMakeFiles/main.dir/main.cpp.obj
 main.exe: CMakeFiles/main.dir/imageProcess/process.cpp.obj
-main.exe: CMakeFiles/main.dir/carControl/class/Speeds.cpp.obj
-main.exe: CMakeFiles/main.dir/carControl/class/Distances.cpp.obj
-main.exe: CMakeFiles/main.dir/carControl/class/PID.cpp.obj
-main.exe: CMakeFiles/main.dir/carControl/CarControlMethod.cpp.obj
-main.exe: CMakeFiles/main.dir/carControl/GetControlConfig.cpp.obj
-main.exe: CMakeFiles/main.dir/carControl/CarControl.cpp.obj
-main.exe: CMakeFiles/main.dir/carControl.cpp.obj
+main.exe: CMakeFiles/main.dir/abandonCarControl/class/Speeds.cpp.obj
+main.exe: CMakeFiles/main.dir/abandonCarControl/class/Distances.cpp.obj
+main.exe: CMakeFiles/main.dir/abandonCarControl/class/PID.cpp.obj
+main.exe: CMakeFiles/main.dir/abandonCarControl/CarControlMethod.cpp.obj
+main.exe: CMakeFiles/main.dir/abandonCarControl/GetControlConfig.cpp.obj
+main.exe: CMakeFiles/main.dir/abandonCarControl/CarControl.cpp.obj
+main.exe: CMakeFiles/main.dir/carControl/carControl.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linklibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp

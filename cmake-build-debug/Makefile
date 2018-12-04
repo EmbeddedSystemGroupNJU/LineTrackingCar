@@ -122,194 +122,194 @@ main/fast:
 	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-carControl.obj: carControl.cpp.obj
+abandonCarControl/CarControl.obj: abandonCarControl/CarControl.cpp.obj
 
-.PHONY : carControl.obj
-
-# target to build an object file
-carControl.cpp.obj:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl.cpp.obj
-.PHONY : carControl.cpp.obj
-
-carControl.i: carControl.cpp.i
-
-.PHONY : carControl.i
-
-# target to preprocess a source file
-carControl.cpp.i:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl.cpp.i
-.PHONY : carControl.cpp.i
-
-carControl.s: carControl.cpp.s
-
-.PHONY : carControl.s
-
-# target to generate assembly for a file
-carControl.cpp.s:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl.cpp.s
-.PHONY : carControl.cpp.s
-
-carControl/CarControl.obj: carControl/CarControl.cpp.obj
-
-.PHONY : carControl/CarControl.obj
+.PHONY : abandonCarControl/CarControl.obj
 
 # target to build an object file
-carControl/CarControl.cpp.obj:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/CarControl.cpp.obj
-.PHONY : carControl/CarControl.cpp.obj
+abandonCarControl/CarControl.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/CarControl.cpp.obj
+.PHONY : abandonCarControl/CarControl.cpp.obj
 
-carControl/CarControl.i: carControl/CarControl.cpp.i
+abandonCarControl/CarControl.i: abandonCarControl/CarControl.cpp.i
 
-.PHONY : carControl/CarControl.i
+.PHONY : abandonCarControl/CarControl.i
 
 # target to preprocess a source file
-carControl/CarControl.cpp.i:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/CarControl.cpp.i
-.PHONY : carControl/CarControl.cpp.i
+abandonCarControl/CarControl.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/CarControl.cpp.i
+.PHONY : abandonCarControl/CarControl.cpp.i
 
-carControl/CarControl.s: carControl/CarControl.cpp.s
+abandonCarControl/CarControl.s: abandonCarControl/CarControl.cpp.s
 
-.PHONY : carControl/CarControl.s
+.PHONY : abandonCarControl/CarControl.s
 
 # target to generate assembly for a file
-carControl/CarControl.cpp.s:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/CarControl.cpp.s
-.PHONY : carControl/CarControl.cpp.s
+abandonCarControl/CarControl.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/CarControl.cpp.s
+.PHONY : abandonCarControl/CarControl.cpp.s
 
-carControl/CarControlMethod.obj: carControl/CarControlMethod.cpp.obj
+abandonCarControl/CarControlMethod.obj: abandonCarControl/CarControlMethod.cpp.obj
 
-.PHONY : carControl/CarControlMethod.obj
+.PHONY : abandonCarControl/CarControlMethod.obj
 
 # target to build an object file
-carControl/CarControlMethod.cpp.obj:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/CarControlMethod.cpp.obj
-.PHONY : carControl/CarControlMethod.cpp.obj
+abandonCarControl/CarControlMethod.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/CarControlMethod.cpp.obj
+.PHONY : abandonCarControl/CarControlMethod.cpp.obj
 
-carControl/CarControlMethod.i: carControl/CarControlMethod.cpp.i
+abandonCarControl/CarControlMethod.i: abandonCarControl/CarControlMethod.cpp.i
 
-.PHONY : carControl/CarControlMethod.i
+.PHONY : abandonCarControl/CarControlMethod.i
 
 # target to preprocess a source file
-carControl/CarControlMethod.cpp.i:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/CarControlMethod.cpp.i
-.PHONY : carControl/CarControlMethod.cpp.i
+abandonCarControl/CarControlMethod.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/CarControlMethod.cpp.i
+.PHONY : abandonCarControl/CarControlMethod.cpp.i
 
-carControl/CarControlMethod.s: carControl/CarControlMethod.cpp.s
+abandonCarControl/CarControlMethod.s: abandonCarControl/CarControlMethod.cpp.s
 
-.PHONY : carControl/CarControlMethod.s
+.PHONY : abandonCarControl/CarControlMethod.s
 
 # target to generate assembly for a file
-carControl/CarControlMethod.cpp.s:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/CarControlMethod.cpp.s
-.PHONY : carControl/CarControlMethod.cpp.s
+abandonCarControl/CarControlMethod.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/CarControlMethod.cpp.s
+.PHONY : abandonCarControl/CarControlMethod.cpp.s
 
-carControl/GetControlConfig.obj: carControl/GetControlConfig.cpp.obj
+abandonCarControl/GetControlConfig.obj: abandonCarControl/GetControlConfig.cpp.obj
 
-.PHONY : carControl/GetControlConfig.obj
+.PHONY : abandonCarControl/GetControlConfig.obj
 
 # target to build an object file
-carControl/GetControlConfig.cpp.obj:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/GetControlConfig.cpp.obj
-.PHONY : carControl/GetControlConfig.cpp.obj
+abandonCarControl/GetControlConfig.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/GetControlConfig.cpp.obj
+.PHONY : abandonCarControl/GetControlConfig.cpp.obj
 
-carControl/GetControlConfig.i: carControl/GetControlConfig.cpp.i
+abandonCarControl/GetControlConfig.i: abandonCarControl/GetControlConfig.cpp.i
 
-.PHONY : carControl/GetControlConfig.i
+.PHONY : abandonCarControl/GetControlConfig.i
 
 # target to preprocess a source file
-carControl/GetControlConfig.cpp.i:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/GetControlConfig.cpp.i
-.PHONY : carControl/GetControlConfig.cpp.i
+abandonCarControl/GetControlConfig.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/GetControlConfig.cpp.i
+.PHONY : abandonCarControl/GetControlConfig.cpp.i
 
-carControl/GetControlConfig.s: carControl/GetControlConfig.cpp.s
+abandonCarControl/GetControlConfig.s: abandonCarControl/GetControlConfig.cpp.s
 
-.PHONY : carControl/GetControlConfig.s
+.PHONY : abandonCarControl/GetControlConfig.s
 
 # target to generate assembly for a file
-carControl/GetControlConfig.cpp.s:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/GetControlConfig.cpp.s
-.PHONY : carControl/GetControlConfig.cpp.s
+abandonCarControl/GetControlConfig.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/GetControlConfig.cpp.s
+.PHONY : abandonCarControl/GetControlConfig.cpp.s
 
-carControl/class/Distances.obj: carControl/class/Distances.cpp.obj
+abandonCarControl/class/Distances.obj: abandonCarControl/class/Distances.cpp.obj
 
-.PHONY : carControl/class/Distances.obj
+.PHONY : abandonCarControl/class/Distances.obj
 
 # target to build an object file
-carControl/class/Distances.cpp.obj:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/class/Distances.cpp.obj
-.PHONY : carControl/class/Distances.cpp.obj
+abandonCarControl/class/Distances.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/class/Distances.cpp.obj
+.PHONY : abandonCarControl/class/Distances.cpp.obj
 
-carControl/class/Distances.i: carControl/class/Distances.cpp.i
+abandonCarControl/class/Distances.i: abandonCarControl/class/Distances.cpp.i
 
-.PHONY : carControl/class/Distances.i
+.PHONY : abandonCarControl/class/Distances.i
 
 # target to preprocess a source file
-carControl/class/Distances.cpp.i:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/class/Distances.cpp.i
-.PHONY : carControl/class/Distances.cpp.i
+abandonCarControl/class/Distances.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/class/Distances.cpp.i
+.PHONY : abandonCarControl/class/Distances.cpp.i
 
-carControl/class/Distances.s: carControl/class/Distances.cpp.s
+abandonCarControl/class/Distances.s: abandonCarControl/class/Distances.cpp.s
 
-.PHONY : carControl/class/Distances.s
+.PHONY : abandonCarControl/class/Distances.s
 
 # target to generate assembly for a file
-carControl/class/Distances.cpp.s:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/class/Distances.cpp.s
-.PHONY : carControl/class/Distances.cpp.s
+abandonCarControl/class/Distances.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/class/Distances.cpp.s
+.PHONY : abandonCarControl/class/Distances.cpp.s
 
-carControl/class/PID.obj: carControl/class/PID.cpp.obj
+abandonCarControl/class/PID.obj: abandonCarControl/class/PID.cpp.obj
 
-.PHONY : carControl/class/PID.obj
+.PHONY : abandonCarControl/class/PID.obj
 
 # target to build an object file
-carControl/class/PID.cpp.obj:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/class/PID.cpp.obj
-.PHONY : carControl/class/PID.cpp.obj
+abandonCarControl/class/PID.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/class/PID.cpp.obj
+.PHONY : abandonCarControl/class/PID.cpp.obj
 
-carControl/class/PID.i: carControl/class/PID.cpp.i
+abandonCarControl/class/PID.i: abandonCarControl/class/PID.cpp.i
 
-.PHONY : carControl/class/PID.i
+.PHONY : abandonCarControl/class/PID.i
 
 # target to preprocess a source file
-carControl/class/PID.cpp.i:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/class/PID.cpp.i
-.PHONY : carControl/class/PID.cpp.i
+abandonCarControl/class/PID.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/class/PID.cpp.i
+.PHONY : abandonCarControl/class/PID.cpp.i
 
-carControl/class/PID.s: carControl/class/PID.cpp.s
+abandonCarControl/class/PID.s: abandonCarControl/class/PID.cpp.s
 
-.PHONY : carControl/class/PID.s
+.PHONY : abandonCarControl/class/PID.s
 
 # target to generate assembly for a file
-carControl/class/PID.cpp.s:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/class/PID.cpp.s
-.PHONY : carControl/class/PID.cpp.s
+abandonCarControl/class/PID.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/class/PID.cpp.s
+.PHONY : abandonCarControl/class/PID.cpp.s
 
-carControl/class/Speeds.obj: carControl/class/Speeds.cpp.obj
+abandonCarControl/class/Speeds.obj: abandonCarControl/class/Speeds.cpp.obj
 
-.PHONY : carControl/class/Speeds.obj
+.PHONY : abandonCarControl/class/Speeds.obj
 
 # target to build an object file
-carControl/class/Speeds.cpp.obj:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/class/Speeds.cpp.obj
-.PHONY : carControl/class/Speeds.cpp.obj
+abandonCarControl/class/Speeds.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/class/Speeds.cpp.obj
+.PHONY : abandonCarControl/class/Speeds.cpp.obj
 
-carControl/class/Speeds.i: carControl/class/Speeds.cpp.i
+abandonCarControl/class/Speeds.i: abandonCarControl/class/Speeds.cpp.i
 
-.PHONY : carControl/class/Speeds.i
+.PHONY : abandonCarControl/class/Speeds.i
 
 # target to preprocess a source file
-carControl/class/Speeds.cpp.i:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/class/Speeds.cpp.i
-.PHONY : carControl/class/Speeds.cpp.i
+abandonCarControl/class/Speeds.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/class/Speeds.cpp.i
+.PHONY : abandonCarControl/class/Speeds.cpp.i
 
-carControl/class/Speeds.s: carControl/class/Speeds.cpp.s
+abandonCarControl/class/Speeds.s: abandonCarControl/class/Speeds.cpp.s
 
-.PHONY : carControl/class/Speeds.s
+.PHONY : abandonCarControl/class/Speeds.s
 
 # target to generate assembly for a file
-carControl/class/Speeds.cpp.s:
-	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/class/Speeds.cpp.s
-.PHONY : carControl/class/Speeds.cpp.s
+abandonCarControl/class/Speeds.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/abandonCarControl/class/Speeds.cpp.s
+.PHONY : abandonCarControl/class/Speeds.cpp.s
+
+carControl/carControl.obj: carControl/carControl.cpp.obj
+
+.PHONY : carControl/carControl.obj
+
+# target to build an object file
+carControl/carControl.cpp.obj:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/carControl.cpp.obj
+.PHONY : carControl/carControl.cpp.obj
+
+carControl/carControl.i: carControl/carControl.cpp.i
+
+.PHONY : carControl/carControl.i
+
+# target to preprocess a source file
+carControl/carControl.cpp.i:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/carControl.cpp.i
+.PHONY : carControl/carControl.cpp.i
+
+carControl/carControl.s: carControl/carControl.cpp.s
+
+.PHONY : carControl/carControl.s
+
+# target to generate assembly for a file
+carControl/carControl.cpp.s:
+	$(MAKE) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/carControl/carControl.cpp.s
+.PHONY : carControl/carControl.cpp.s
 
 imageProcess/process.obj: imageProcess/process.cpp.obj
 
@@ -374,27 +374,27 @@ help:
 	@echo ... edit_cache
 	@echo ... main
 	@echo ... rebuild_cache
-	@echo ... carControl.obj
-	@echo ... carControl.i
-	@echo ... carControl.s
-	@echo ... carControl/CarControl.obj
-	@echo ... carControl/CarControl.i
-	@echo ... carControl/CarControl.s
-	@echo ... carControl/CarControlMethod.obj
-	@echo ... carControl/CarControlMethod.i
-	@echo ... carControl/CarControlMethod.s
-	@echo ... carControl/GetControlConfig.obj
-	@echo ... carControl/GetControlConfig.i
-	@echo ... carControl/GetControlConfig.s
-	@echo ... carControl/class/Distances.obj
-	@echo ... carControl/class/Distances.i
-	@echo ... carControl/class/Distances.s
-	@echo ... carControl/class/PID.obj
-	@echo ... carControl/class/PID.i
-	@echo ... carControl/class/PID.s
-	@echo ... carControl/class/Speeds.obj
-	@echo ... carControl/class/Speeds.i
-	@echo ... carControl/class/Speeds.s
+	@echo ... abandonCarControl/CarControl.obj
+	@echo ... abandonCarControl/CarControl.i
+	@echo ... abandonCarControl/CarControl.s
+	@echo ... abandonCarControl/CarControlMethod.obj
+	@echo ... abandonCarControl/CarControlMethod.i
+	@echo ... abandonCarControl/CarControlMethod.s
+	@echo ... abandonCarControl/GetControlConfig.obj
+	@echo ... abandonCarControl/GetControlConfig.i
+	@echo ... abandonCarControl/GetControlConfig.s
+	@echo ... abandonCarControl/class/Distances.obj
+	@echo ... abandonCarControl/class/Distances.i
+	@echo ... abandonCarControl/class/Distances.s
+	@echo ... abandonCarControl/class/PID.obj
+	@echo ... abandonCarControl/class/PID.i
+	@echo ... abandonCarControl/class/PID.s
+	@echo ... abandonCarControl/class/Speeds.obj
+	@echo ... abandonCarControl/class/Speeds.i
+	@echo ... abandonCarControl/class/Speeds.s
+	@echo ... carControl/carControl.obj
+	@echo ... carControl/carControl.i
+	@echo ... carControl/carControl.s
 	@echo ... imageProcess/process.obj
 	@echo ... imageProcess/process.i
 	@echo ... imageProcess/process.s
